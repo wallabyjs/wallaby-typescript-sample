@@ -1,3 +1,5 @@
+///<reference path="../typings/jasmine/jasmine.d.ts"/>
+///<reference path="../src/sayingsBrowser.ts"/>
 
 describe('Sayings Greeter', () => {
     it('should greet', () => {
