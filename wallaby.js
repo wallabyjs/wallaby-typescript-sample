@@ -11,7 +11,8 @@ module.exports = function (w) {
 
     // TypeScript compiler is on by default with default options,
     // you can configure built-in compiler by passing options to it
-    // https://github.com/Microsoft/TypeScript/blob/master/src/compiler/types.ts#L1584
+    // See interface CompilerOptions in 
+    // https://github.com/Microsoft/TypeScript/blob/master/src/compiler/types.ts
     //compilers: {
     //  '**/*.ts': w.compilers.typeScript({})
     //}
