@@ -9,10 +9,8 @@ module.exports = function (w) {
       'test/*BrowserSpec.ts'
     ]
 
-    // TypeScript compiler is on by default with default options,
-    // you can configure built-in compiler by passing options to it
-    // See interface CompilerOptions in
-    // https://github.com/Microsoft/TypeScript/blob/master/src/compiler/types.ts
+    // TypeScript compiler is on by default with default options (and options from tsconfig.json),
+    // you can also configure built-in compiler by passing options to it
     //compilers: {
     //  '**/*.ts': w.compilers.typeScript({})
     //}
