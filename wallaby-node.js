@@ -14,7 +14,7 @@ module.exports = function (w) {
     },
 
     compilers: {
-      '**/*.ts': w.compilers.typeScript({module: 1}) // 1 for CommonJs
+      '**/*.ts': w.compilers.typeScript({module: 'commonjs'})
     }
 
     // By default TypeScript compiler renames .coffee files to .js files.
