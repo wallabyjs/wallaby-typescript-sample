@@ -1,4 +1,6 @@
-import Greeter = require('../src/greeterNode');
+/// <reference path="../typings/jasmine/jasmine.d.ts"/>
+
+import Greeter from '../src/greeterNode';
 
 describe('Sayings Greeter', () => {
     it('should greet', () => {
