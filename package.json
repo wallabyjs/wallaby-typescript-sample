@@ -1,0 +1,28 @@
+{
+  "name": "wallaby-typescript-sample-1",
+  "version": "1.0.0",
+  "description": "![ts](https://cloud.githubusercontent.com/assets/979966/7109844/02ae89cc-e1ea-11e4-8637-7b07d927b8d9.gif)",
+  "main": "wallaby-node.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "jasmine": "^2.4.1"
+  },
+  "devDependencies": {
+    "jasmine": "^2.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wallabyjs/wallaby-typescript-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wallabyjs/wallaby-typescript-sample/issues"
+  },
+  "homepage": "https://github.com/wallabyjs/wallaby-typescript-sample#readme"
+}
