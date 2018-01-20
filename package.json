@@ -10,8 +10,8 @@
     "jasmine": "^2.4.1"
   },
   "devDependencies": {
-    "jasmine": "^2.4.1",
-    "typescript": "2.0.8"
+    "jasmine": "2.8.0",
+    "typescript": "^2.6.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
